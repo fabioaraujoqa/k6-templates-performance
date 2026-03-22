@@ -2,6 +2,10 @@
 
 Templates prontos para testar performance contra [QuickPizza](https://quickpizza.grafana.com) (API pública do Grafana Labs) ou localmente via Docker.
 
+## 📊 Apresentação
+
+[📥 Baixar Apresentação em PDF](K6-%20Estrat%C3%A9gias%20de%20testes%20de%20performance.pdf)
+
 ## Instalação
 
 ```bash

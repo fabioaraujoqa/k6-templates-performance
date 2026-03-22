@@ -5,11 +5,10 @@ const BASE_URL = __ENV.BASE_URL || 'https://quickpizza.grafana.com';
 
 export const options = {
   stages: [
-    { duration: '1m', target: 5 },
-    { duration: '10s', target: 50 },
-    { duration: '1m', target: 50 },
-    { duration: '10s', target: 5 },
-    { duration: '1m', target: 0 },
+    { duration: '30s', target: 10 },
+    { duration: '10s', target: 500 },
+    { duration: '10s', target: 10 },
+    { duration: '10s', target: 0 },
   ],
 };
 
